@@ -1,0 +1,104 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f5f2eb;
+}
+
+.no-link-style {
+  color: #000000;
+  text-decoration: none;
+}
+
+.txt-bold {
+  font-weight: bold;
+}
+
+.txt-gray {
+  color: #797979;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.d-none {
+  display: none;
+}
+
+#signIn,
+#landingImg {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#signIn {
+  width: 480px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  text-align: center;
+  padding: 58px 52px 66px;
+}
+
+#signInSubtitle {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.btn-primary {
+  margin: 0 12px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #aed6b3;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  padding: 12px 18px;
+}
+
+.btn-primary.transparent {
+  border: none;
+  background-color: transparent;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+
+.secondary-btn:nth-child(2) {
+  margin: 0 8px;
+}
+
+.main-nav {
+  margin-top: 18.5px;
+  margin-right: 70px;
+  text-align: right;
+  list-style: none;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: #000000;
+  text-decoration: none;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.sign-in-btn {
+  width: 100%;
+  color: #ffffff;
+  margin: 0;
+  border: none;
+}
