@@ -28,6 +28,14 @@ body {
   display: none;
 }
 
+.mt-0 {
+  margin-top: 0;
+}
+
+.mb-32 {
+  margin-bottom: 32px;
+}
+
 #signIn,
 #landingImg {
   display: inline-block;
@@ -42,7 +50,12 @@ body {
   padding: 58px 52px 66px;
 }
 
+#signInTitle {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
 #signInSubtitle {
+  margin-top: 0;
   color: rgba(0, 0, 0, 0.2);
 }
 
@@ -51,7 +64,6 @@ body {
 }
 
 .btn-primary {
-  margin: 0 12px;
   font-size: 16px;
   font-weight: 500;
   background-color: #aed6b3;
@@ -69,10 +81,15 @@ body {
   background-color: transparent;
   border: 1px solid black;
   border-radius: 40px;
+  padding: 10px 23px;
 }
 
 .secondary-btn:nth-child(2) {
   margin: 0 8px;
+}
+
+.secondary-btn i {
+  margin-right: 8px;
 }
 
 .main-nav {
@@ -94,6 +111,10 @@ body {
 input {
   width: 100%;
   box-sizing: border-box;
+  border: 1px solid #5d5d5d;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  padding: 14.5px 23px;
 }
 
 .sign-in-btn {

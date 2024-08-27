@@ -38,10 +38,10 @@
     <main>
       <section id="signIn">
         <h1 id="signInTitle">Sign In</h1>
-        <h2 id="signInSubtitle">
+        <h2 id="signInSubtitle" class="mb-32">
           Hey, Enter your details to login to your account
         </h2>
-        <form action="">
+        <form action="" class="mb-32">
           <label for="credentials" class="d-none">Credentials</label>
           <input
             id="credentials"
@@ -56,25 +56,28 @@
             name="passcode"
             placeholder="Passcode"
           />
-          <p class="txt-left txt-gray">
+          <p class="txt-left txt-gray mt-0 mb-32">
             Don't have an account yet?
             <a href="#" class="no-link-style txt-bold">Register now!</a>
           </p>
           <button type="submit" class="btn-primary sign-in-btn">Sign In</button>
         </form>
-        <p>- Or Sign in with -</p>
-        <section id="socialLogin">
+        <p class="mb-32">- Or Sign in with -</p>
+        <section id="socialLogin" class="mb-32">
           <button class="secondary-btn">
-            <i class="fa-brands fa-google"></i>Google
-          </button>
-          <button class="secondary-btn">
-            <i class="fa-brands fa-apple"></i>Apple ID
-          </button>
-          <button class="secondary-btn">
+            <i class="fa-brands fa-google"></i>Google</button
+          ><!--
+          --><button class="secondary-btn">
+            <i class="fa-brands fa-apple"></i>Apple ID</button
+          ><!--
+            --><button class="secondary-btn">
             <i class="fa-brands fa-facebook"></i>Facebook
           </button>
         </section>
-        <p>Don't have an account? <a href="#">Register Now</a></p>
+        <p>
+          Don't have an account?
+          <a href="#" class="no-link-style txt-bold">Register Now</a>
+        </p>
       </section>
       <section id="landingImg">
         <img src="./assets/image.svg" alt="Landing Page Image" />
